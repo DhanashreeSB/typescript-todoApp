@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Home component snapshot testing 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="todo-app container"
+        id="todo-list"
+      >
+        <h2
+          class="center blue-text"
+        >
+          To do
+        </h2>
+        <div
+          class="todos collection"
+        >
+          <div
+            class="collection-item"
+          >
+            <span>
+              1
+              . 
+              Presentation at 1PM
+            </span>
+            <button
+              class="right green white-text"
+              data-testid="todo-0"
+            >
+              Remove
+            </button>
+          </div>
+          <div
+            class="collection-item"
+          >
+            <span>
+              2
+              . 
+              Meeting at 3PM
+            </span>
+            <button
+              class="right green white-text"
+              data-testid="todo-1"
+            >
+              Remove
+            </button>
+          </div>
+        </div>
+        <div>
+          <form>
+            <label
+              class="left black-text"
+            >
+              Add new Todo:
+            </label>
+            <input
+              data-testid="add-todo"
+              type="text"
+              value=""
+            />
+            <button
+              class="center green white-text"
+              id="add"
+              type="submit"
+            >
+              Add Task
+            </button>
+          </form>
+        </div>
+        <p
+          style="color: blue; cursor: pointer;"
+        >
+          Go to home
+        </p>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="todo-app container"
+      id="todo-list"
+    >
+      <h2
+        class="center blue-text"
+      >
+        To do
+      </h2>
+      <div
+        class="todos collection"
+      >
+        <div
+          class="collection-item"
+        >
+          <span>
+            1
+            . 
+            Presentation at 1PM
+          </span>
+          <button
+            class="right green white-text"
+            data-testid="todo-0"
+          >
+            Remove
+          </button>
+        </div>
+        <div
+          class="collection-item"
+        >
+          <span>
+            2
+            . 
+            Meeting at 3PM
+          </span>
+          <button
+            class="right green white-text"
+            data-testid="todo-1"
+          >
+            Remove
+          </button>
+        </div>
+      </div>
+      <div>
+        <form>
+          <label
+            class="left black-text"
+          >
+            Add new Todo:
+          </label>
+          <input
+            data-testid="add-todo"
+            type="text"
+            value=""
+          />
+          <button
+            class="center green white-text"
+            id="add"
+            type="submit"
+          >
+            Add Task
+          </button>
+        </form>
+      </div>
+      <p
+        style="color: blue; cursor: pointer;"
+      >
+        Go to home
+      </p>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

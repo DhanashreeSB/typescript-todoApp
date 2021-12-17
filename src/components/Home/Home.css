@@ -1,0 +1,17 @@
+img {
+  opacity: 0.3;
+}
+
+div.transbox {
+  position: fixed;
+  padding: 2%;
+  top: 40%;
+  left: 40%;
+  margin-top: -50px;
+  margin-left: -30px;
+  background-color: #dbb6e2;
+  opacity: 0.6;
+  font-weight: bolder;
+  font-size: 60px;
+  color: black;
+}

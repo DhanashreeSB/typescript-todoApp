@@ -1,25 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Route } from 'react-router-dom'
+import NavBar from './shared/NavBar/NavBar';
 import './App.css';
+import Home from './components/Home/Home';
+import Schedule from './components/Schedule/Schedule';
+import Contact from './components/Contacts/Contact';
+import * as ROUTE_CONSTANTS from "./Constants/routes";
+import ScrollToTop from './shared/ScrollToTop/scrollToTop';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+      <div className="App">
+        <NavBar />
+        <Route exact path={ROUTE_CONSTANTS.home} component={Home} />
+        <Route path={ROUTE_CONSTANTS.schedule} component={Schedule} />
+        <Route path={ROUTE_CONSTANTS.contacts} component={Contact} />
+      </div>
+    </BrowserRouter>
   );
 }
 
